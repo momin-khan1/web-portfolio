@@ -3,13 +3,8 @@
     padding: 0;
 }
 
-section{
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-}
-
 .banner-part{
-    margin-left: 100px;
+    margin-left: 5%;
     display: flex;
     margin-top: 50px;
 }
@@ -62,5 +57,59 @@ p small{
 
 .second-banner{
     margin-top: 150px;
-    margin-right: 100px;
+    margin-right: 5%;
+}
+
+.experiences{
+    margin-top: 90px;
+}
+
+.experiences h1{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(248, 167, 17);
+    margin-bottom: 50px;
+}
+
+.two-part{
+    display: flex;
+}
+
+.one-part{
+    box-shadow: 5px 5px 30px #3b3b3b;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 90px 90px;
+    margin-bottom: 90px;
+    border-left: 8px solid;
+}
+
+#web-dev{
+    border-image: linear-gradient(180deg, rgb(252, 9, 179) , rgb(255, 167, 4));
+    border-image-slice: 1;
+}
+
+#baby-dev{
+    border-image: linear-gradient(180deg, rgb(17, 110, 248) , rgb(12, 209, 223));
+    border-image-slice: 1;
+}
+
+.one-part h2{
+    font-size: 40px;
+    margin-bottom: 15px;;
+}
+
+.one-part h3{
+    color:rgb(248, 167, 17);
+    margin-bottom: 15px;;
+}
+
+.one-part p{
+    text-align: justify ;
+}
+
+footer{
+    margin-bottom: 70px;
+    text-align: center;
 }
